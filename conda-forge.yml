@@ -1,0 +1,17 @@
+github:
+  user_or_org: robotraconteur
+
+channels:
+  targets:
+    - robotraconteur
+
+provider:
+  linux: github_actions
+  osx: None
+  win: None
+  linux_aarch64: None
+  linux_ppc64le: None
+
+github_actions:
+  upload_packages: True
+  store_build_artifacts: True
