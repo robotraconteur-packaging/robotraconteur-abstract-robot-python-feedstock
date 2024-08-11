@@ -1,7 +1,7 @@
 About robotraconteur-abstract-robot-python-feedstock
 ====================================================
 
-Feedstock license: [BSD-3-Clause](https://github.com/robotraconteur/robotraconteur-abstract-robot-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/robotraconteur/robotraconteur-abstract-robot-python-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/robotraconteur/robotraconteur_abstract_robot_python.git
 
@@ -26,19 +26,19 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-robotraconteur--abstract--robot--python-green.svg)](https://anaconda.org/r/robotraconteur-abstract-robot-python) | [![Conda Downloads](https://img.shields.io/conda/dn/r/robotraconteur-abstract-robot-python.svg)](https://anaconda.org/r/robotraconteur-abstract-robot-python) | [![Conda Version](https://img.shields.io/conda/vn/r/robotraconteur-abstract-robot-python.svg)](https://anaconda.org/r/robotraconteur-abstract-robot-python) | [![Conda Platforms](https://img.shields.io/conda/pn/r/robotraconteur-abstract-robot-python.svg)](https://anaconda.org/r/robotraconteur-abstract-robot-python) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-robotraconteur--abstract--robot--python-green.svg)](https://anaconda.org/robotraconteur/robotraconteur-abstract-robot-python) | [![Conda Downloads](https://img.shields.io/conda/dn/robotraconteur/robotraconteur-abstract-robot-python.svg)](https://anaconda.org/robotraconteur/robotraconteur-abstract-robot-python) | [![Conda Version](https://img.shields.io/conda/vn/robotraconteur/robotraconteur-abstract-robot-python.svg)](https://anaconda.org/robotraconteur/robotraconteur-abstract-robot-python) | [![Conda Platforms](https://img.shields.io/conda/pn/robotraconteur/robotraconteur-abstract-robot-python.svg)](https://anaconda.org/robotraconteur/robotraconteur-abstract-robot-python) |
 
 Installing robotraconteur-abstract-robot-python
 ===============================================
 
-Installing `robotraconteur-abstract-robot-python` from the `r` channel can be achieved by adding `r` to your channels with:
+Installing `robotraconteur-abstract-robot-python` from the `robotraconteur` channel can be achieved by adding `robotraconteur` to your channels with:
 
 ```
-conda config --add channels r
+conda config --add channels robotraconteur
 conda config --set channel_priority strict
 ```
 
-Once the `r` channel has been enabled, `robotraconteur-abstract-robot-python` can be installed with `conda`:
+Once the `robotraconteur` channel has been enabled, `robotraconteur-abstract-robot-python` can be installed with `conda`:
 
 ```
 conda install robotraconteur-abstract-robot-python
@@ -53,26 +53,26 @@ mamba install robotraconteur-abstract-robot-python
 It is possible to list all of the versions of `robotraconteur-abstract-robot-python` available on your platform with `conda`:
 
 ```
-conda search robotraconteur-abstract-robot-python --channel r
+conda search robotraconteur-abstract-robot-python --channel robotraconteur
 ```
 
 or with `mamba`:
 
 ```
-mamba search robotraconteur-abstract-robot-python --channel r
+mamba search robotraconteur-abstract-robot-python --channel robotraconteur
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search robotraconteur-abstract-robot-python --channel r
+mamba repoquery search robotraconteur-abstract-robot-python --channel robotraconteur
 
 # List packages depending on `robotraconteur-abstract-robot-python`:
-mamba repoquery whoneeds robotraconteur-abstract-robot-python --channel r
+mamba repoquery whoneeds robotraconteur-abstract-robot-python --channel robotraconteur
 
 # List dependencies of `robotraconteur-abstract-robot-python`:
-mamba repoquery depends robotraconteur-abstract-robot-python --channel r
+mamba repoquery depends robotraconteur-abstract-robot-python --channel robotraconteur
 ```
 
 
@@ -86,8 +86,8 @@ package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
-`r` channel, whereupon the built conda packages will be available for
-everybody to install and use from the `r` channel.
+`robotraconteur` channel, whereupon the built conda packages will be available for
+everybody to install and use from the `robotraconteur` channel.
 Note that all branches in the robotraconteur/robotraconteur-abstract-robot-python-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
